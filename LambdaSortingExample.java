@@ -11,7 +11,6 @@ public class LambdaSortingExample {
 
         System.out.println("Before sorting: " + names);
 
-        // Sorting using a lambda expression
         Collections.sort(names, (name1, name2) -> name1.compareTo(name2));
 
         System.out.println("After sorting: " + names);
